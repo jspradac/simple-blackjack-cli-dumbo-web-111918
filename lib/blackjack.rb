@@ -53,6 +53,7 @@ def hit?(number)
 end
 
 def invalid_command
+  puts "Please enter valid command"
   # code invalid_command here
 end
 
@@ -61,6 +62,11 @@ end
 #####################################################
 
 def runner
+  welcome 
+  total = initial_round
+  until total > 21
+    
+  
   # code runner here
 end
     
